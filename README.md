@@ -9,18 +9,26 @@ This project predicts students’ exam scores based on their study habits, lifes
 
  Source: Student Performance Dataset
  (Kaggle)
+ 
  Features include study hours, sleep, family support, school type, and more.
+ 
  Target: exam_score
 
 # Key Features
 
  Preprocessing: Handles missing values, scales numeric features, encodes categorical features (low-cardinality: OneHot, high-cardinality: frequency encoding)
+ 
  Models: RandomForest, GradientBoosting, XGBoost
+ 
  Evaluation: MAE, MSE, RMSE, R²
+ 
  Visualizations:
      Target distribution
+     
      Predicted vs Actual scores (Parity plot)
+     
      Residuals
+     
      Feature importance
 
 # Pipeline Structure
